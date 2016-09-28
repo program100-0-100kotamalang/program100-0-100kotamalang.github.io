@@ -1,1 +1,4 @@
-# program100-0-100kotamalang.github.io
+latihan-webgis
+==============
+
+Repo untuk latihan pada Workshop WebGIS
