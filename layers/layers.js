@@ -31,16 +31,7 @@ var lyr_kelurahanlengkapOGRGeoJSONPolygon = new ol.layer.Vector({
                 style: style_kelurahanlengkapOGRGeoJSONPolygon,
                 title: "Kelurahan Berstatus Kumuh"
             });
-var format_kelurahanlengkapOGRGeoJSONPolygon_noLabel = new ol.format.GeoJSON();
-var features_kelurahanlengkapOGRGeoJSONPolygon_noLabel = format_kelurahanlengkapOGRGeoJSONPolygon_noLabel.readFeatures(geojson_kelurahanlengkapOGRGeoJSONPolygon, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_kelurahanlengkapOGRGeoJSONPolygon_noLabel = new ol.source.Vector();
-jsonSource_kelurahanlengkapOGRGeoJSONPolygon_noLabel.addFeatures(features_kelurahanlengkapOGRGeoJSONPolygon_noLabel);
-var lyr_kelurahanlengkapOGRGeoJSONPolygon_noLabel = new ol.layer.Vector({
-                source:jsonSource_kelurahanlengkapOGRGeoJSONPolygon_noLabel, 
-                style: style_kelurahanlengkapOGRGeoJSONPolygon_noLabel,
-                title: "Kelurahan Berstatus Kumuh"
-            });			
+
 
 			
 var format_ndakkumuhOGRGeoJSONPolygon = new ol.format.GeoJSON();
@@ -54,16 +45,7 @@ var lyr_ndakkumuhOGRGeoJSONPolygon = new ol.layer.Vector({
 				title:"Kelurahan Tidak Kumuh"
                 
             });			
-var format_ndakkumuhOGRGeoJSONPolygon_noLabel = new ol.format.GeoJSON();
-var features_ndakkumuhOGRGeoJSONPolygon_noLabel = format_ndakkumuhOGRGeoJSONPolygon_noLabel.readFeatures(geojson_ndakkumuhOGRGeoJSONPolygon, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_ndakkumuhOGRGeoJSONPolygon_noLabel = new ol.source.Vector();
-jsonSource_ndakkumuhOGRGeoJSONPolygon_noLabel.addFeatures(features_ndakkumuhOGRGeoJSONPolygon_noLabel);
-var lyr_ndakkumuhOGRGeoJSONPolygon_noLabel = new ol.layer.Vector({
-                source:jsonSource_ndakkumuhOGRGeoJSONPolygon_noLabel, 
-                style: style_ndakkumuhOGRGeoJSONPolygon_noLabel,
-				title:"Kelurahan Tidak Kumuh"
-            });
+
 			
 			
 lyr_RTatributntapOGRGeoJSONMultiPolygon.setVisible(false);
@@ -74,4 +56,3 @@ lyr_ndakkumuhOGRGeoJSONPolygon.setVisible(true);
 
 
 var layersList = [baseLayer,lyr_ndakkumuhOGRGeoJSONPolygon,lyr_RTatributntapOGRGeoJSONMultiPolygon,lyr_kelurahanlengkapOGRGeoJSONPolygon,lyr_geojson_POINT];
-var layersList2 = [baseLayer,lyr_ndakkumuhOGRGeoJSONPolygon_noLabel,lyr_RTatributntapOGRGeoJSONMultiPolygon,lyr_kelurahanlengkapOGRGeoJSONPolygon_noLabel,lyr_geojson_POINT];
