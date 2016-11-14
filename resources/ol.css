@@ -48,7 +48,7 @@
 .ol-attribution button {
 	width: 70px;
     height: 21px;
-    background-image: url('/icon/LEGENDA.png') /*logo.png*/;
+    background-image: url('icon/LEGENDA.png') /*logo.png*/;
 }
 .ol-attribution ul{display:inline-block}
 .ol-attribution.ol-collapsed ul{display:none}
