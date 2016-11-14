@@ -37,12 +37,12 @@ FusionCharts.ready(function () {
 											"data": [
 												{
 													"label": "Kumuh",
-													"value": "31.757"
+													"value": "51.26"
 												}, 
 																							
 												{
 													"label": "Tidak Kumuh",
-													"value": "68.25"
+													"value": "48.74"
 												}
 											]
 										}
@@ -84,87 +84,83 @@ FusionCharts.ready(function () {
 										
 										"data": [
 											{
-												"label": "Keteraturan Bangunan",
-												"value": "38"
+												"label": "Ketidakteraturan Bangunan",
+												"value": "60"
 											}, 
 											
 											{
-												"label": "Luas Bangunan Sesuai Teknis",
-												"value": "79"
+												"label": "Tingkat Kepadatan Bangunan",
+												"value": "24.19"
 											}, 
 											{
-												"label": "Bangunan Sesuai Teknis",
-												"value": "95"
-											}, 
-											{
-												"label": "Kawasan Jalan Baik",
-												"value": "89"
-											},
-											
-											{
-												"label": "Kondisi Jalan Baik",
-												"value": "73"
-											},
-											{
-												"label": "Kawasan Bebas Banjir",
-												"value": "98"
-											},
-											{
-												"label": "Drainase Baik",
-												"value": "73"
-											},
-											{
-												"label": "Masyarakat Terlayani Air",
-												"value": "85"
-											},
-											{
-												"label": "Masyarakat Terpenuhi Kebutuhan Air",
-												"value": "98"
-											},
-											{
-												"label": "Masyarakat Memiliki Jamban Bersama",
-												"value": "95"
-											},
-											{
-												"label": "Jumlah Jamban sesuai Syarat",
-												"value": "72"
-											},
-											{
-												"label": "Saluran Limbah Terpisah drainase",
-												"value": "3"
-											},
-											{
-												"label": "Sampah diangkut ke TPS",
-												"value": "73"
-											},
-											{
-												"label": "Sarana Pencegah Kebakaran",
-												"value": "0"
-											},
-											{
-												"label": "Bangunan Ber-IMB",
+												"label": "Bangunan Tidak Sesuai Teknis",
 												"value": "10"
-											},
+											}, 
 											{
-												"label": "Lahan Bangunan Memiliki Surat",
-												"value": "17"
+												"label": "Cakupan Jalan Buruk ",
+												"value": "4.5"
 											},
 											
 											{
-												"label": "Masyarakat Pedagang/Jasa",
-												"value": "88"
+												"label": "Kualitas Jalan Buruk ",
+												"value": "12.2"
 											},
 											{
-												"label": "Rumah Listrik 900 Watt",
-												"value": "48"
+												"label": "Ketidaktersediaan Akses Air Minum",
+												"value": "13.8"
 											},
 											{
-												"label": "Pengguna Fasilitas Puskesmas/Pustu",
-												"value": "67"
+												"label": "Air Minum Tidak Terpenuhi",
+												"value": "1.61"
 											},
 											{
-												"label": "Pengguna Fasilitas Pendidikan damlam Kelurahan/Kecamatan",
-												"value": "54"
+												"label": "Drainase Tidak Mampu Mengalirkan Limpasan Air ",
+												"value": "1.61"
+											},
+											{
+												"label": "Drainase Tidak Tersedia",
+												"value": "18.38"
+											},
+											{
+												"label": "Drainase Tidak Terhubung Dengan Drainase Perkotaan ",
+												"value": "18.38"
+											},
+											{
+												"label": "Drainase Tidak Terpelihara",
+												"value": "18.38"
+											},
+											{
+												"label": "Kualitas Konstruksi Drainase Buruk",
+												"value": "18.38"
+											},
+											{
+												"label": "Pengolahan Air Limbah Tidak Sesuai Standar",
+												"value": "24.8"
+											},
+											{
+												"label": "Sarana dan Prasarana Pengelolaan Air Limbah Tidak Standar",
+												"value": "96.7"
+											},
+											{
+												"label": "Sarana dan Prasarana Persampahan Tidak Standar",
+												"value": "29.03"
+											},
+											{
+												"label": "Pengolahan Sampah Tidak Standar",
+												"value": "29.0"
+											},
+											
+											{
+												"label": "Sarana dan Prasarana Pengelolaan Sampah Tidak Terpelihara",
+												"value": "29.0"
+											},
+											{
+												"label": "Ketidaktersediaan Sarana Proteksi Kebakaran ",
+												"value": "100"
+											},
+											{
+												"label": "Ketidaktersediaan Prasarana Proteksi Kebakaran ",
+												"value": "100"
 											},
 										]
 									}

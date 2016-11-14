@@ -2711,7 +2711,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 .navbar-brand {
   padding: 15px;
-  float: left;
+  float: right;
   height: 50px;
   font-size: 18px;
   line-height: 20px;

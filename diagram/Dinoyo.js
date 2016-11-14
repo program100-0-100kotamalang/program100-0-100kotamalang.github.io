@@ -37,12 +37,12 @@ FusionCharts.ready(function () {
 											"data": [
 												{
 													"label": "Kumuh",
-													"value": "31.06"
+													"value": "44.61"
 												}, 
 																							
 												{
 													"label": "Tidak Kumuh",
-													"value": "68.94"
+													"value": "55.39"
 												}
 											]
 										}
@@ -84,87 +84,83 @@ FusionCharts.ready(function () {
 										
 										"data": [
 											{
-												"label": "Keteraturan Bangunan",
-												"value": "69"
+												"label": "Ketidakteraturan Bangunan",
+												"value": "26"
 											}, 
 											
 											{
-												"label": "Luas Bangunan Sesuai Teknis",
-												"value": "94"
+												"label": "Tingkat Kepadatan Bangunan",
+												"value": "82.74"
 											}, 
 											{
-												"label": "Bangunan Sesuai Teknis",
-												"value": "98"
+												"label": "Bangunan Tidak Sesuai Teknis",
+												"value": "20"
 											}, 
 											{
-												"label": "Kawasan Jalan Baik",
-												"value": "83"
+												"label": "Cakupan Jalan Buruk ",
+												"value": "10.19"
 											},
 											
 											{
-												"label": "Kondisi Jalan Baik",
-												"value": "81"
+												"label": "Kualitas Jalan Buruk ",
+												"value": "11.76"
 											},
 											{
-												"label": "Kawasan Bebas Banjir",
-												"value": "29"
+												"label": "Ketidaktersediaan Akses Air Minum",
+												"value": "3.92"
 											},
 											{
-												"label": "Drainase Baik",
-												"value": "82"
-											},
-											{
-												"label": "Masyarakat Terlayani Air",
-												"value": "92"
-											},
-											{
-												"label": "Masyarakat Terpenuhi Kebutuhan Air",
-												"value": "100"
-											},
-											{
-												"label": "Masyarakat Memiliki Jamban Bersama",
-												"value": "98"
-											},
-											{
-												"label": "Jumlah Jamban sesuai Syarat",
-												"value": "84"
-											},
-											{
-												"label": "Saluran Limbah Terpisah drainase",
-												"value": "63"
-											},
-											{
-												"label": "Sampah diangkut ke TPS",
-												"value": "81"
-											},
-											{
-												"label": "Sarana Pencegah Kebakaran",
+												"label": "Air Minum Tidak Terpenuhi",
 												"value": "0"
 											},
 											{
-												"label": "Bangunan Ber-IMB",
-												"value": "58"
+												"label": "Drainase Tidak Mampu Mengalirkan Limpasan Air ",
+												"value": "70.58"
 											},
 											{
-												"label": "Lahan Bangunan Memiliki Surat",
-												"value": "82"
+												"label": "Drainase Tidak Tersedia",
+												"value": "10.58"
+											},
+											{
+												"label": "Drainase Tidak Terhubung Dengan Drainase Perkotaan ",
+												"value": "16.07"
+											},
+											{
+												"label": "Drainase Tidak Terpelihara",
+												"value": "16.07"
+											},
+											{
+												"label": "Kualitas Konstruksi Drainase Buruk",
+												"value": "16.07"
+											},
+											{
+												"label": "Pengolahan Air Limbah Tidak Sesuai Standar",
+												"value": "14.5"
+											},
+											{
+												"label": "Sarana dan Prasarana Pengelolaan Air Limbah Tidak Standar",
+												"value": "37.2"
+											},
+											{
+												"label": "Sarana dan Prasarana Persampahan Tidak Standar",
+												"value": "18.03"
+											},
+											{
+												"label": "Pengolahan Sampah Tidak Standar",
+												"value": "18.03"
 											},
 											
 											{
-												"label": "Masyarakat Pedagang/Jasa",
-												"value": "86"
+												"label": "Sarana dan Prasarana Pengelolaan Sampah Tidak Terpelihara",
+												"value": "18.03"
 											},
 											{
-												"label": "Rumah Listrik 900 Watt",
-												"value": "65"
+												"label": "Ketidaktersediaan Sarana Proteksi Kebakaran ",
+												"value": "100"
 											},
 											{
-												"label": "Pengguna Fasilitas Puskesmas/Pustu",
-												"value": "43"
-											},
-											{
-												"label": "Pengguna Fasilitas Pendidikan damlam Kelurahan/Kecamatan",
-												"value": "54"
+												"label": "Ketidaktersediaan Prasarana Proteksi Kebakaran ",
+												"value": "100"
 											},
 										]
 									}
