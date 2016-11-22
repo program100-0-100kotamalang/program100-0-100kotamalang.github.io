@@ -26,7 +26,8 @@
 .ol-scale-line-inner{border:1px solid #eee;border-top:none;color:#eee;font-size:10px;text-align:center;margin:1px;will-change:contents,width}
 .ol-overlay-container{will-change:left,right,top,bottom}
 .ol-unsupported{display:none}
-.ol-viewport .ol-unselectable{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}.ol-control{background-color:rgba(255,255,255,.4);border-radius:4px}
+.ol-viewport .ol-unselectable{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
+.ol-control{background-color:rgba(255,255,255,.4);border-radius:4px}
 .ol-control:hover{background-color:rgba(255,255,255,.6)}
 .ol-zoom{top:.5em;left:.5em}
 .ol-rotate{top:.5em;right:.5em;transition:opacity .25s linear,visibility 0s linear}
@@ -48,8 +49,8 @@
 .ol-attribution button {
 	width: 70px;
     height: 21px;
-    background-image: url('icon/LEGENDA.png') /*logo.png*/;
-}
+ }
+ 
 .ol-attribution ul{display:inline-block}
 .ol-attribution.ol-collapsed ul{display:none}
 .ol-attribution.ol-logo-only ul{display:block}

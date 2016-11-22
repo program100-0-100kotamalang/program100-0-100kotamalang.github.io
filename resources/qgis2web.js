@@ -49,37 +49,7 @@ var map = new ol.Map
    })
 });
 
-// var currentZoom = map.getView().getZoom()
-// var firstTimeNL = true
-// var firstTimeL = true
-// map.on('moveend', (function() {
-	// if (currentZoom != map.getView().getZoom()) {
-		// currentZoom = map.getView().getZoom();
-		// console.log(currentZoom)
-		// if(currentZoom<14 && firstTimeNL) {
-			// firstTimeL = true
-			// console.log('switch no Label')
-			// map.removeLayer(lyr_ndakkumuhOGRGeoJSONPolygon)
-			// map.removeLayer(lyr_kelurahanlengkapOGRGeoJSONPolygon)
-			// map.removeLayer(lyr_geojson_POINT)
-			// map.addLayer(lyr_ndakkumuhOGRGeoJSONPolygon_noLabel)
-			// map.addLayer(lyr_kelurahanlengkapOGRGeoJSONPolygon_noLabel)
-			// map.addLayer(lyr_geojson_POINT)
-			// firstTimeNL = false
-		// }
-		// else if (currentZoom>13 && firstTimeL){
-			// firstTimeNL = true
-			// console.log('switch Label')
-			// map.removeLayer(lyr_ndakkumuhOGRGeoJSONPolygon_noLabel)
-			// map.removeLayer(lyr_kelurahanlengkapOGRGeoJSONPolygon_noLabel)
-			// map.removeLayer(lyr_geojson_POINT)
-			// map.addLayer(lyr_ndakkumuhOGRGeoJSONPolygon)
-			// map.addLayer(lyr_kelurahanlengkapOGRGeoJSONPolygon)
-			// map.addLayer(lyr_geojson_POINT)
-			// firstTimeL = false
-		// }
-    // }
-// }));	
+
 
 //zoom sesuai kelurahan
 
@@ -115,14 +85,14 @@ var map = new ol.Map
 				
 				map.getView().setCenter(ol.proj.transform([112.61859,-7.97922], 'EPSG:4326', 'EPSG:3857'));
 				
-				map.getView().setZoom(15);
+				map.getView().setZoom(16);
 				
 				})});
 				$(document).ready (function(){$("#Blimbing").click(function(){
 				
 				map.getView().setCenter(ol.proj.transform([112.64575,-7.94354], 'EPSG:4326', 'EPSG:3857'));
 				
-				map.getView().setZoom(15);
+				map.getView().setZoom(16);
 				
 				})});
 				$(document).ready (function(){$("#Ciptomulyo").click(function(){
