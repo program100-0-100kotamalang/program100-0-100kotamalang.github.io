@@ -29,9 +29,9 @@ jsonSource_kelurahanlengkapOGRGeoJSONPolygon.addFeatures(features_kelurahanlengk
 var lyr_kelurahanlengkapOGRGeoJSONPolygon = new ol.layer.Vector({
                 source:jsonSource_kelurahanlengkapOGRGeoJSONPolygon, 
                 style: style_kelurahanlengkapOGRGeoJSONPolygon,
-                title: "Kelurahan Kumuh Sedang"
+                title: "Kelurahan Berstatus Kumuh"
             });
-			
+
 
 			
 var format_ndakkumuhOGRGeoJSONPolygon = new ol.format.GeoJSON();
@@ -46,51 +46,13 @@ var lyr_ndakkumuhOGRGeoJSONPolygon = new ol.layer.Vector({
                 
             });			
 
-var format_kelurahanlineOGRGeoJSONLineString = new ol.format.GeoJSON();
-var features_kelurahanlineOGRGeoJSONLineString = format_kelurahanlineOGRGeoJSONLineString.readFeatures(geojson_kelurahanlineOGRGeoJSONLineString, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_kelurahanlineOGRGeoJSONLineString = new ol.source.Vector();
-jsonSource_kelurahanlineOGRGeoJSONLineString.addFeatures(features_kelurahanlineOGRGeoJSONLineString);
-var lyr_kelurahanlineOGRGeoJSONLineString = new ol.layer.Vector({
-                source:jsonSource_kelurahanlineOGRGeoJSONLineString, 
-                style: style_kelurahanlineOGRGeoJSONLineString,
-				title:"Batas Kelurahan"
-                
-            });			
-
-		
-			
-var format_proporsioanlsymbolwgs = new ol.format.GeoJSON();
-var features_proporsioanlsymbolwgs = format_proporsioanlsymbolwgs.readFeatures(geojson_proporsioanlsymbolwgs, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_proporsioanlsymbolwgs = new ol.source.Vector();
-jsonSource_proporsioanlsymbolwgs.addFeatures(features_proporsioanlsymbolwgs);var lyr_proporsioanlsymbolwgs = new ol.layer.Vector({
-                source:jsonSource_proporsioanlsymbolwgs, 
-                style: style_proporsioanlsymbolwgs,
-                title: "Proporsional Simbol"
-            });
 			
 			
 lyr_RTatributntapOGRGeoJSONMultiPolygon.setVisible(false);
 lyr_kelurahanlengkapOGRGeoJSONPolygon.setVisible(true);
-lyr_proporsioanlsymbolwgs.setVisible(true);
+
 lyr_geojson_POINT.setVisible(true);
-lyr_kelurahanlineOGRGeoJSONLineString.setVisible (true);
 lyr_ndakkumuhOGRGeoJSONPolygon.setVisible(true);
 
 
-var layersList = [
-					baseLayer,
-					
-					
-					lyr_RTatributntapOGRGeoJSONMultiPolygon,
-					lyr_proporsioanlsymbolwgs,
-					lyr_kelurahanlineOGRGeoJSONLineString,
-					lyr_ndakkumuhOGRGeoJSONPolygon,
-					lyr_kelurahanlengkapOGRGeoJSONPolygon,
-					lyr_geojson_POINT,
-					
-					
-				];
-
-
+var layersList = [baseLayer,lyr_ndakkumuhOGRGeoJSONPolygon,lyr_RTatributntapOGRGeoJSONMultiPolygon,lyr_kelurahanlengkapOGRGeoJSONPolygon,lyr_geojson_POINT];

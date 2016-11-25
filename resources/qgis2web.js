@@ -16,6 +16,8 @@ var overlayPopup = new ol.Overlay
 	({
 		element: container
 	});
+
+
 		
 	
 // ini buat mendefinisikan peta
@@ -25,6 +27,7 @@ var map = new ol.Map
 				new ol.control.Attribution({collapsible: true}),
 				new ol.control.ScaleLine({}),
 				new ol.control.LayerSwitcher({tipLabel: "Layers"}),
+				
 				new ol.control.MousePosition
 				({
 					
@@ -45,9 +48,6 @@ var map = new ol.Map
 		zoom:12
    })
 });
-
-				
-	
 
 
 
@@ -278,7 +278,7 @@ var ALL_FIELDS = 1
 
 function getPopupFields(layerList, layer) 
 	{
-		popupLayers = [1,0,1,1,1];
+		popupLayers = [1,1,1,1];
         var idx = layersList.indexOf(layer) - (layersList.length - popupLayers.length);
 		return popupLayers[idx];
 	}

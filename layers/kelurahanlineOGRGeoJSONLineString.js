@@ -6,7 +6,7 @@ var style_kelurahanlineOGRGeoJSONLineString = function(feature, resolution){
     var value = ""
     var size = 0;
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: "rgba(255,0,0,1)", lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
+        stroke: new ol.style.Stroke({color: "rgba(228,61,74,1.0)", lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
     })];
     if ("" !== null) {
         var labelText = String("");
