@@ -31,7 +31,7 @@ var lyr_kelurahanlengkapOGRGeoJSONPolygon = new ol.layer.Vector({
                 style: style_kelurahanlengkapOGRGeoJSONPolygon,
                 title: "Kelurahan Berstatus Kumuh"
             });
-
+			
 
 			
 var format_ndakkumuhOGRGeoJSONPolygon = new ol.format.GeoJSON();
@@ -46,13 +46,48 @@ var lyr_ndakkumuhOGRGeoJSONPolygon = new ol.layer.Vector({
                 
             });			
 
+var format_kelurahanlineOGRGeoJSONLineString = new ol.format.GeoJSON();
+var features_kelurahanlineOGRGeoJSONLineString = format_kelurahanlineOGRGeoJSONLineString.readFeatures(geojson_kelurahanlineOGRGeoJSONLineString, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_kelurahanlineOGRGeoJSONLineString = new ol.source.Vector();
+jsonSource_kelurahanlineOGRGeoJSONLineString.addFeatures(features_kelurahanlineOGRGeoJSONLineString);
+var lyr_kelurahanlineOGRGeoJSONLineString = new ol.layer.Vector({
+                source:jsonSource_kelurahanlineOGRGeoJSONLineString, 
+                style: style_kelurahanlineOGRGeoJSONLineString,
+				title:"Batas Kelurahan"
+                
+            });			
+
+				
+
+var format_semuaRT = new ol.format.GeoJSON();
+var features_semuaRT = format_semuaRT.readFeatures(geojson_semuaRT, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_semuaRT = new ol.source.Vector();
+jsonSource_semuaRT.addFeatures(features_semuaRT);var lyr_semuaRT = new ol.layer.Vector({
+                source:jsonSource_semuaRT, 
+                style: style_semuaRT,
+                title: "Proporsional Simbol"
+            });			
 			
 			
 lyr_RTatributntapOGRGeoJSONMultiPolygon.setVisible(false);
 lyr_kelurahanlengkapOGRGeoJSONPolygon.setVisible(true);
-
 lyr_geojson_POINT.setVisible(true);
+lyr_kelurahanlineOGRGeoJSONLineString.setVisible (true);
 lyr_ndakkumuhOGRGeoJSONPolygon.setVisible(true);
+lyr_semuaRT.setVisible(false);
 
 
-var layersList = [baseLayer,lyr_ndakkumuhOGRGeoJSONPolygon,lyr_RTatributntapOGRGeoJSONMultiPolygon,lyr_kelurahanlengkapOGRGeoJSONPolygon,lyr_geojson_POINT];
+var layersList = [
+					baseLayer,	
+					lyr_RTatributntapOGRGeoJSONMultiPolygon,
+					lyr_semuaRT,
+					lyr_kelurahanlineOGRGeoJSONLineString,
+					lyr_ndakkumuhOGRGeoJSONPolygon,
+					lyr_kelurahanlengkapOGRGeoJSONPolygon,
+					lyr_geojson_POINT,
+
+				];
+
+
